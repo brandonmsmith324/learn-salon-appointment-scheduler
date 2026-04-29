@@ -343,3 +343,4 @@ cat /proc/self/environ
 echo -n 8a78ac66-ea20-474b-894e-996fe5e520a3
 ./salon.sh
 ./salon.sh
+pg_dump -cC --inserts -U freecodecamp salon > salon.sql
